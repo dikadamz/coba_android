@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/android_vertical_margin"
+    android:paddingBottom="@dimen/android_vertical_margin"
+    android:paddingLeft="@dimen/android_horizontal_margin"
+    android:paddingRight="@dimen/android_horizontal_margin"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="@string/angka_1"
+        android:paddingBottom="@dimen/android_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edt_angka_satu"
+        android:inputType="numberDecimal"
+        android:lines="1"
+        android:paddingBottom="@dimen/android_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="@string/angka_2"
+        android:paddingBottom="@dimen/android_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edt_angka_dua"
+        android:inputType="numberDecimal"
+        android:lines="1"
+        android:paddingBottom="@dimen/android_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_hitung"
+        android:text="@string/hitung"
+        android:paddingBottom="@dimen/android_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txt_hasil"
+        android:text="@string/hasil"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
